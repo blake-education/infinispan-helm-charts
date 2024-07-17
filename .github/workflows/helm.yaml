@@ -39,8 +39,8 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           filters: |
             charts:
-              - 'Chart.yaml'
-              - 'values.yaml'
+              - 'charts/infinispan/Chart.yaml'
+              - 'charts/infinispan/values.yaml'
 
   chart:
     name: Release Chart
@@ -75,4 +75,4 @@ jobs:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
           CR_RELEASE_NAME_TEMPLATE: "helm-chart-{{ .Version }}"
         with:
-          charts_dir: .
+          charts_dir: charts
