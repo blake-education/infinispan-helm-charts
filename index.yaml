@@ -23,6 +23,26 @@ entries:
     version: 0.4.1
   - apiVersion: v2
     appVersion: "14.0"
+    created: "2024-07-17T22:58:28.9683241Z"
+    description: A Helm chart that lets you build and deploy Infinispan clusters forked
+      from upstream
+    digest: 72f17b54c377678f41d8ea8888d2dad4e3a5e932dcb85012cb77b2516d3e6370
+    home: https://infinispan.org/
+    icon: https://design.jboss.org/infinispan/logo/final/PNG/infinispan_icon_rgb_lightbluewhite_256px.png
+    kubeVersion: '>= 1.21.0-0'
+    maintainers:
+    - name: Infinispan
+      url: https://infinispan.org/
+    name: infinispan
+    sources:
+    - https://github.com/infinispan/infinispan
+    - https://github.com/infinispan/infinispan-helm-charts
+    type: application
+    urls:
+    - https://github.com/blake-education/infinispan-helm-charts/releases/download/helm-chart-0.4.1-14b/infinispan-0.4.1-14b.tgz
+    version: 0.4.1-14b
+  - apiVersion: v2
+    appVersion: "14.0"
     created: "2024-07-17T22:42:05.244665697Z"
     description: A Helm chart that lets you build and deploy Infinispan clusters forked
       from upstream
@@ -41,4 +61,4 @@ entries:
     urls:
     - https://github.com/blake-education/infinispan-helm-charts/releases/download/helm-chart-0.4.1-14/infinispan-0.4.1-14.tgz
     version: 0.4.1-14
-generated: "2024-07-17T22:42:05.244679162Z"
+generated: "2024-07-17T22:58:28.968342675Z"
