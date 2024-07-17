@@ -3,7 +3,7 @@ name: infinispan
 description: A Helm chart that lets you build and deploy Infinispan clusters forked from upstream
 type: application
 # Chart version
-version: 0.4.1-14
+version: 0.4.1-14b
 # Infinispan version. Use the floating x.y tag of the image.
 appVersion: "14.0"
 kubeVersion: ">= 1.21.0-0"
