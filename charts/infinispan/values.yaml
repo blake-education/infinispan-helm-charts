@@ -99,7 +99,7 @@ deploy:
       # [USER] Add cache, template, and counter configuration.
       name: default
       globalState:
-        uncleanShutdownAction: IGNORE
+        # uncleanShutdownAction: IGNORE
       # [USER] Specify `security: null` to disable security authorization.
       security:
         authorization: {}
